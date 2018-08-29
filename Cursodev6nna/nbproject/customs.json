@@ -1,6 +1,10 @@
 {
     "elements": {
-        "a": {}
+        "a": {
+            "attributes": {
+                "href": {}
+            }
+        }
     },
     "attributes": {}
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="CadastroSucesso.html" method="post">
+            <fieldset>
+                <legend> Casdastro De Usuario</legend>    
+            <p>Nome Completo</p>
+            <input type="text" name="Nome Completo" placeholder="Insira o Nome" required>
+            <p>Senha</p>
+            <input type="password" name="Senha" placeholder="Insira a Senha" required>                                                                                                                                                                                                          
+            <br>
+            <p>Sexo</p>
+            <input type="radio" name="sexo" value="m">Masculino
+            <input type="radio" name="sexo" value="f">Feminino
+            <br>
+            <p>Esporte Favorito</p>
+            <input type="checkbox" name="Volei" value="Volei"/> Volei
+            <input type="checkbox" name="Basquete" value="Basquete"/>Basquete
+          
+            <br><br>
+            <p>Selecione a Cidade:</p>
+            <select name="cidade">
+                <option value="B">Belem</option>
+                <option value="A">ananideua</option>
+            </select>
+            <br><br>
+            <P>Observacoes</P>
+            <textarea cols="30" rows="5" placeholder="Insira as Observaçoes"></textarea>
+           
+            <br>
+           
+           
+         
+           <input type="submit" value="Enviar">
+           <input type="submit" value="Cancelar">
+           <input type="reset" value="Limpar">
+           <input type="hidden" name="acao" value="Cadastro Pessoal">
+           
+            </form>
+    </body>
+</html>
