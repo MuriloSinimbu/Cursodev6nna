@@ -1,0 +1,30 @@
+body{
+background-color: white;
+}
+div{
+    font-size: 30px;
+   font-family: helvertica; 
+   color: blue;
+}
+
+p{
+ font-size: 40px;
+ font-family: family;
+ color:green;
+    
+    
+}
+
+#postagens{
+font-size: 30px;
+font-family: sans-serif;
+color: red;
+    
+}
+.conteudos{
+ color: gray;   
+}
+    
+    
+    
+   
