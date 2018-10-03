@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+$('document').ready(function(){
+    alert("Olá Jquery!");
+    });
 
-
-$(document).ready(function (){
-    $("salvar").click(function ()){
-    alert ("Olá JQuery!");
-})
-};
